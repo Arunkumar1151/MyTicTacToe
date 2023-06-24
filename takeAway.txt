@@ -1,0 +1,22 @@
+1.  Justify content:
+     align item:                 --> they act on display flex
+
+2.  Grid's properties like-->  grid-template-rows: repeat(3,10vw);
+                               grid-template-columns: repeat(3,10vw);
+
+                               for grid making
+3. Learned how to make Utilities classes and how to use them here in this project 
+         I have basically used in removing the perifery borders
+
+4. Learned the way of adding music/Audio 
+   the syntax is  new Audio("path of music")
+
+5.here I have dynamically changed the turn i.e from X to 0 and vice-versa
+  this was achieved by firstly assigning turn=x and by introducing a function
+             const changeTurn=()=>{
+              return turn === "X"?"0":"X"
+             }
+
+                              
+6. Learned how to traverse through each box and apply game/winning conditions logic 
+
